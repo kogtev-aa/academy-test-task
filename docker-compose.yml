@@ -39,7 +39,7 @@ services:
     volumes:
       - ./backend/tmp/db:/var/lib/mysql
     #    env_file:
-    #      - ./academy-test-task/backend/.env
+    ##      - ./academy-test-task/backend/.env
     environment:
       - MYSQL_DATABASE=laravel_db
       - MYSQL_ROOT_PASSWORD=root
